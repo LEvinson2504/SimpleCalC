@@ -18,12 +18,12 @@ void main()
         n2=0;
         if (opr=='+') scanf("%d", &n2);
             sum+=n2;
-        else if (opr=='-') scanf("%d", &n2)
-            sum-=n2
-        else if (opr=='/') scanf("%d", &n2)
-            sum/=n2
-        else (opr='*')  scanf("%d", &n2)
-            sum*+=n2}
+        else if (opr=='-') scanf("%d", &n2);
+            sum-=n2;
+        else if (opr=='/') scanf("%d", &n2);;
+            sum/=n2;
+        else (opr='*')  scanf("%d", &n2);
+            sum*+=n2};
     }
     printf("%d", sum);
 
