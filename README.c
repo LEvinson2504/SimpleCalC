@@ -2,15 +2,14 @@
 a calculator which does operations from left to right using C
 
 
+
 #include <stdio.h>
 #include <conio.h>
-
 void main()
-{
+  {
     int n1, n2, sum;
     char opr='o';
-
-   printf("Enter the Operation followed by signs. Press x to end");
+	printf("Enter the Operation followed by signs. Press x to end");
     scanf("%d", &n1);
     sum=n1;
     while(opr!='x')
